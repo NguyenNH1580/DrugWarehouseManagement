@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugWarehouseManagement_API", "DrugWarehouseManagement_API\DrugWarehouseManagement_API.csproj", "{9563685A-A530-4778-92A5-7E0F09E067F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugWarehouseManagement_BlazorWasm", "DrugWarehouseManagement_BlazorWasm\DrugWarehouseManagement_BlazorWasm.csproj", "{3425682B-7C56-491E-A2BD-E80A502FC5D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9563685A-A530-4778-92A5-7E0F09E067F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9563685A-A530-4778-92A5-7E0F09E067F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9563685A-A530-4778-92A5-7E0F09E067F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9563685A-A530-4778-92A5-7E0F09E067F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3425682B-7C56-491E-A2BD-E80A502FC5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3425682B-7C56-491E-A2BD-E80A502FC5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3425682B-7C56-491E-A2BD-E80A502FC5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3425682B-7C56-491E-A2BD-E80A502FC5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {348B1BC8-B131-4DE7-9111-A607725B8C6B}
+	EndGlobalSection
+EndGlobal
