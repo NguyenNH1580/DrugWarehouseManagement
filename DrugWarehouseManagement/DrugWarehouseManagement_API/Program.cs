@@ -1,4 +1,24 @@
+using DrugWarehouseManagement_API.Data;
+using DrugWarehouseManagement_API.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Add DbContext
+builder.Services.AddDbContext<DrugHousewareManagementDbContext>(
+    options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    }
+);
+
+//Add Transient
+builder.Services.AddTransient<IUserRepository, UserRepository>();
+
+
+//Add AutoMapper
+builder.Services.AddAutoMapper(typeof(Program));
+
 
 // Add services to the container.
 
